@@ -1,7 +1,6 @@
-# FindYourMeme
+# Find Your Meme
 
-App implemented using ReactNative
+Image gallery app with search-by-text feature. The purpose for this app is collecting images containing text
+and easily finding them.
 
-OCR Algorithm
-
-https://docs.google.com/document/d/12TKSY9ljJSdzgIVM3q0mD7ly8PoLNSM3lTSFc7iqJoM/edit
+Written in React Native 💙 Expo.
