@@ -14,3 +14,7 @@ web-build/
 
 # custom
 *.log
+
+# Temporary - TOOD: think more about it
+# We may want to sync some config but not all
+.vscode/
