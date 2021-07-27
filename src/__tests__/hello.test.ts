@@ -1,5 +1,5 @@
 describe('some tests', () => {
   it('calculates 2+2=4', () => {
-    expect(2 + 2).toBe(5);
+    expect(2 + 2).toBe(4);
   });
 });
