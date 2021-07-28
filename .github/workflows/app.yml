@@ -60,6 +60,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           channel: '#ci'
+          job_name: Lint and test
           text: 'Lint / Tests failed on branch `main`'
           status: ${{ job.status }}
           fields: job,message,ref,eventName,author,took
