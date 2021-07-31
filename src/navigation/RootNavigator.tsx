@@ -39,7 +39,7 @@ export default function RootNavigator() {
             tabBarIcon: ({ focused }) =>
               BottomTabIcon({
                 title: 'Debug',
-                iconSource: require('../../assets/share-tab-icon.png'),
+                iconSource: require('../../assets/debug-tab-icon.png'),
                 isFocused: focused,
               }),
           }}
