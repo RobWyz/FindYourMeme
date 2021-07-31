@@ -5,11 +5,11 @@ import ImageDetailsScreen from '../screens/ImageDetailsScreen';
 
 const Stack = createStackNavigator();
 
-export default function StackNavigator() {
+export default function GalleryNavigator() {
   return (
-    <Stack.Navigator initialRouteName="Gallery">
+    <Stack.Navigator initialRouteName="GalleryHome">
       <Stack.Screen
-        name="Gallery"
+        name="GalleryHome"
         component={GalleryScreen}
         options={{ headerTitle: 'Gallery', headerTitleAlign: 'center' }}
       />

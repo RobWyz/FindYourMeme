@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
-import StackNavigator from './StackNavigator';
+import GalleryNavigator from './GalleryNavigator';
 import DebugScreen from '../screens/DebugScreen';
 import BottomTabIcon from './BottomTabIcon';
 
@@ -22,7 +22,7 @@ export default function RootNavigator() {
       >
         <BottomTab.Screen
           name="Gallery"
-          component={StackNavigator}
+          component={GalleryNavigator}
           options={{
             tabBarIcon: ({ focused }) =>
               BottomTabIcon({
