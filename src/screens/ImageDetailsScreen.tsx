@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function DebugScreen() {
+export default function ImageDetailsScreen() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to Debug Screen!</Text>
+      <Text>Welcome to Image Details Screen!</Text>
     </View>
   );
 }

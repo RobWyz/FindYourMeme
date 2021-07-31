@@ -1,12 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import { GalleryScreenNavigationProps } from '../navigation/navigation.types';
 
-export default function GalleryScreen() {
+export default function GalleryScreen({ navigation }: GalleryScreenNavigationProps) {
   return (
     <View style={styles.container}>
-      <Text>Welcome to Gallery Screen!</Text>
-      <StatusBar style="auto" />
+      <Text style={{ paddingBottom: 20 }}>Welcome to Gallery Screen!</Text>
+      <Button
+        title="Image Details"
+        onPress={() => {
+          navigation.navigate('ImageDetails');
+        }}
+      />
     </View>
   );
 }
