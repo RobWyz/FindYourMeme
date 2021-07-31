@@ -2,7 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import GalleryScreen from '../screens/GalleryScreen';
-import ShareScreen from '../screens/ShareScreen';
+import DebugScreen from '../screens/DebugScreen';
 import BottomTabIcon from './BottomTabIcon';
 
 const BottomTab = createBottomTabNavigator();
@@ -33,12 +33,12 @@ export default function RootNavigator() {
           }}
         />
         <BottomTab.Screen
-          name="Share"
-          component={ShareScreen}
+          name="Debug"
+          component={DebugScreen}
           options={{
             tabBarIcon: ({ focused }) =>
               BottomTabIcon({
-                title: 'Share',
+                title: 'Debug',
                 iconSource: require('../../assets/share-tab-icon.png'),
                 isFocused: focused,
               }),

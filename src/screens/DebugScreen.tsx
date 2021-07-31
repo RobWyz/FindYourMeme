@@ -2,10 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function ShareScreen() {
+export default function DebugScreen() {
   return (
     <View style={styles.container}>
-      <Text>Welcome to Share Screen!</Text>
+      <Text>Welcome to Debug Screen!</Text>
       <StatusBar style="auto" />
     </View>
   );
