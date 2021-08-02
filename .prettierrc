@@ -5,5 +5,5 @@
   "printWidth": 120,
   "semi": true,
   "arrowParens": "avoid",
-  "endOfLine": "lf"
+  "endOfLine": "auto"
 }
